@@ -5,7 +5,7 @@ function Result({srcCode}) {
         <div>
             <div className="bg-[#282c34] p-4 shadow mt-4 rounded-lg">
                 <h2
-                    className="text-lg font-semibold mb-2 text-white">
+                    className="text-lg font-semibold mb-2 text-green-500">
                     Result
                 </h2>
                 <iframe

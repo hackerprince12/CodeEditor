@@ -42,16 +42,13 @@ function App() {
 
   return (
     <div>
-      {/* Navbar  */}
+      
       <Navbar />
 
-      {/* main content  */}
       <div className=" p-2">
-        {/* Editor  */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-2">
-          {/* Html Editor */}
           <div className="bg-[#282c34] p-4 rounded-lg shadow">
-            <h2 className="text-lg font-semibold mb-2 text-white">HTML</h2>
+            <h2 className="text-lg font-semibold mb-2 text-gray-400">HTML</h2>
             <CodeMirror
               className="text-xl border-gray-700 border"
               value={html_edit}
@@ -62,9 +59,8 @@ function App() {
             />
           </div>
 
-          {/* Css Editor  */}
           <div className="bg-[#282c34] p-4 rounded-lg shadow">
-            <h2 className="text-lg font-semibold mb-2 text-white">CSS</h2>
+            <h2 className="text-lg font-semibold mb-2 text-gray-400">CSS</h2>
             <CodeMirror
               className="text-xl border-gray-700 border"
               value={css_edit}
@@ -77,7 +73,7 @@ function App() {
 
           {/* JavaScript Editor  */}
           <div className="bg-[#282c34] p-4 rounded-lg shadow">
-            <h2 className="text-lg font-semibold mb-2 text-white">JavaScript</h2>
+            <h2 className="text-lg font-semibold mb-2 text-gray-400">JavaScript</h2>
             <CodeMirror
               className="text-xl border-gray-700 border"
               value={js_edit}
